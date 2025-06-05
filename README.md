@@ -8,4 +8,7 @@ yarn build:demo
 yarn start
 ```
 
+### Login with
+user1 : password
+
 ### By Atichat Nilchat [haouiha]
