@@ -3,9 +3,9 @@
 
 ### command to run
 ```
-yarn
-yarn build
-yarn demo
+yarn install
+yarn build:demo
+yarn start
 ```
 
 ### By Atichat Nilchat [haouiha]

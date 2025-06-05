@@ -5,12 +5,12 @@
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build",
+		"build:demo": "next build && prisma migrate deploy && prisma db seed",
 		"start": "next start",
 		"lint": "next lint",
 		"postinstall": "prisma generate",
 		"prisma:migrate": "prisma migrate dev",
-		"prisma:studio": "prisma studio",
-		"demo": "prisma migrate deploy && prisma db seed && next start"
+		"prisma:studio": "prisma studio"
 	},
 	"prisma": {
 		"seed": "tsx prisma/seed/demo.ts"
